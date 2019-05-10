@@ -7,7 +7,7 @@ public class DierenartsApp {
 		new Dier().lopen();
 		new Assistent().assisteren();
 		new Kassa().rinkelen();
-	
+		new Praktijk().consultatie();
 		
 		
 	}
