@@ -11,8 +11,8 @@ public class Assistent {
 		tijdelijkDier.mank = mank;
 		tijdelijkDier.geld = geld;
 
-		System.out.println("Oh je, " + tijdelijkDier.naam + " is mank. Gelukkig heeft het dier " + tijdelijkDier.geld + " bij zich en kan de rekening misschien betalen."));
+		System.out.println("Oh je, " + tijdelijkDier.naam + " is mank. Gelukkig heeft het dier " + tijdelijkDier.geld + " bij zich en kan de rekening misschien betalen.");
 		
-		return new Dier();
+		return tijdelijkDier;
 	}
 }
