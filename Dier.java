@@ -20,4 +20,12 @@ public class Dier {
 	void vertellen() {
 		System.out.println("Hallo ik ben dier " + this.naam + ", loop ik nog mank?" + "Mank-status: " + this.mank + " In mijn portemonnee heb ik nog " + this.geld + " euro.");
 	}
+	
+	void naarHuis(Dier dier) {
+		if (dier.mank == false) {
+			System.out.println("Het dier is genezen en gaat naar huis!");
+		} else {
+			System.out.println("Het dier is nog niet genezen, roep de assistent");
+		}
+	}
 }
