@@ -5,6 +5,7 @@ public class Dier {
 	boolean mank;
 	int geld;
 	
+	Dier(){}	
 	Dier(String naam, boolean mank, int geld){
 		this.naam = naam;
 		this.mank = mank;
