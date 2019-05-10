@@ -10,10 +10,10 @@ public class Praktijk {
 	void openen() {
 		
 		System.out.println("Welkom bij het praktijk");
-		dieren.add(Assistent.aanmelden("Pietje", true, 500));
-		dieren.add(Assistent.aanmelden("Ham", false, 78));
-		dieren.add(Assistent.aanmelden("IJs", true, 8));
-		dieren.add(Assistent.aanmelden("Beer", true, 52));
+		dieren.add(assistent1.aanmelden("Pietje", true, 500));
+		dieren.add(assistent1.aanmelden("Ham", false, 78));
+		dieren.add(assistent1.aanmelden("IJs", true, 8));
+		dieren.add(assistent1.aanmelden("Beer", true, 52));
 			
 	}
 	
